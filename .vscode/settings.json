@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "D:/desarrollo/movil/f_testing/linux"
+    "cmake.sourceDirectory": "D:/desarrollo/movil/f_testing/linux",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
