@@ -164,7 +164,8 @@ void main() {
     await tester.tap(find.byKey(const Key('ButtonLoginSubmit')));
 
     await tester.pumpAndSettle();
-    expect(find.byType(SnackBar), findsOneWidget);
+    expect(find.text('User or passwor nok'), findsOneWidget);
+
   });
 
   testWidgets('Widget signUp validación @ email', (WidgetTester tester) async {
